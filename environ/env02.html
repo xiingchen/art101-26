@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Environment 01</title>
+<link href="env02.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="lyrics">
+    <p>I feel like everybody's singing out of tune</p>
+    <p>I feel like I can't help but always be so blue</p>
+    <p>But in the end, I know I must keep pulling through</p>
+    <p>And brace myself for all the hell-like petals on the moon</p>
+  </div>
+
+<img id="star" src="../exercises/images/star.webp" alt="star" title="star">
+
+<img id="display"
+     src="../exercises/images/play.png"
+     width="100"
+     onclick="changeImage()">
+
+<script>
+  function changeImage() {
+    const img = document.getElementById('display');
+
+    if (img.src.includes('play.png')) {
+      img.src = '../exercises/images/pause.png';
+    } else {
+      img.src = '../exercises/images/play.png';
+    }
+  }
+</script>
+
+</body>
+</html>
