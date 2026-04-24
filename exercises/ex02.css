@@ -1,5 +1,21 @@
-p{color: orange; font-size: large;}
+p {
+    color: orange; 
+    font-size: large;
+}
 
-li{text-align: center;}
+li {
+    text-align: center;
+}
 
-html{font-family: "Microsoft YaHei", sans-serif; background-color: beige;}
+html {
+    font-family: "Microsoft YaHei", sans-serif; 
+    background-color: beige;
+}
+
+.test-div {
+    background-color: lightblue;
+    margin: 30px;
+    padding: 25px;
+}
+
+.my-flex {display: flex;}
