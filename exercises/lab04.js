@@ -12,8 +12,11 @@ $("#needy-button").click(function () {
     count = count + 1;
 
     let arrayPosition = count - 1;
-    
+
+    let currentMood = buttonCreature.moods[arrayPosition];
+
     console.log(count);
     console.log(arrayPosition);
+    console.log(currentMood);
 
 });
