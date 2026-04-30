@@ -1,0 +1,56 @@
+body {
+    background-image: url("../exercises/images/frog.jpg");
+}
+
+p {
+    color: rgb(0, 0, 0); 
+    padding: 5px;
+    margin: 5px;
+}
+
+#star {
+  width: 200px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  transform: rotate(20deg);
+}
+
+#play-button {
+    background-color: rgba(237, 255, 255, 0.363);
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 30px;
+}
+
+.lyrics {
+    background-color: rgba(237, 255, 255, 0.363);
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#forward-button {
+    background-color: rgba(237, 255, 255, 0.363);
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    left: 225px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 30px;
+}
+
+#back-button {
+    background-color: rgba(237, 255, 255, 0.363);
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 30px;
+}
