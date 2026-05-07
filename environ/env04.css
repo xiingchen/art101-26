@@ -59,3 +59,9 @@ p {
     position: absolute;
     left: 500px;
 }
+
+#output{
+    position: absolute;
+    left: 500px;
+    top: 350px;
+}
