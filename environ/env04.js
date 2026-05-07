@@ -66,13 +66,13 @@ $(function () {
     });
 
 function askWhat(correctWord) {
-    let userWord = prompt("Type the secret word:");
+    let userWord = prompt("What's the magic word?");
 
     if (userWord.toLowerCase() == correctWord) {
-        $("#output").html("Chicken butt!");
+        $("#output").html("Chicken butt!!!!!");
     }
     else {
-        $("#output").html("Say what?");
+        $("#output").html("Say what :3");
     }
 }
 
