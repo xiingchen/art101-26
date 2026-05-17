@@ -1,0 +1,105 @@
+body {
+    background-image: url("../exercises/images/frog.jpg");
+}
+
+p {
+    color: rgb(0, 0, 0); 
+    padding: 5px;
+    margin: 5px;
+}
+
+#star {
+  width: 200px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  transform: rotate(20deg);
+}
+
+#play-button {
+    background-color: rgba(237, 255, 255, 0.363);
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 30px;
+}
+
+.lyrics {
+    background-color: rgba(237, 255, 255, 0.363);
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#forward-button {
+    background-color: rgba(237, 255, 255, 0.363);
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    left: 225px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 30px;
+}
+
+#back-button {
+    background-color: rgba(237, 255, 255, 0.363);
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 30px;
+}
+
+#what-button {
+    position: absolute;
+    left: 500px;
+}
+
+#output{
+    position: absolute;
+    left: 500px;
+}
+
+#song-display {
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 15px;
+    border-radius: 12px;
+    width: 300px;
+}
+
+#song-title {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+}
+
+#song-artist {
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+}
+
+#fact-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(237, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+#fact-box {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.85);
+}
