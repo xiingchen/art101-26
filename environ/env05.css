@@ -89,7 +89,8 @@ p {
 }
 
 #fact-button {
-    margin-top: 10px;
+    display: block;
+    margin-top: 20px;
     padding: 8px 12px;
     border: none;
     border-radius: 10px;

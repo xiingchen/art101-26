@@ -106,7 +106,7 @@ $("#what-button").click(function () {
     askWhat("what");
 });
 
-$("#fact-button").hover(
+$("#song-display").hover(
     function () {
         $("#fact-box").stop(true, true).slideDown(300);
         $("#output").text("A fun fact appeared!");
