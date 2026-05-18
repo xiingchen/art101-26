@@ -109,11 +109,9 @@ $("#what-button").click(function () {
 $("#song-display").hover(
     function () {
         $("#fact-box").stop(true, true).slideDown(300);
-        $("#output").text("A fun fact appeared!");
     },
     function () {
         $("#fact-box").stop(true, true).slideUp(300);
-        $("#output").text("The fun fact disappeared.");
     }
 );
 

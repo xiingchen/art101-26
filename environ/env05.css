@@ -68,8 +68,8 @@ p {
 
 #song-display {
     position: absolute;
-    top: 250px;
-    left: 75px;
+    top: 225px;
+    left: 35px;
     background-color: rgba(255,255,255,0.5);
     padding: 15px;
     border-radius: 12px;
@@ -90,8 +90,8 @@ p {
 
 #fact-button {
     display: block;
-    margin-top: 20px;
-    padding: 8px 12px;
+    margin-top: 10px;
+    padding: 3px 12px;
     border: none;
     border-radius: 10px;
     background-color: rgba(237, 255, 255, 0.7);
